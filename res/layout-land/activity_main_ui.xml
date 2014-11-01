@@ -1,0 +1,107 @@
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent">
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/tField1"
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:ems="10"
+        android:maxLength="1000"
+        android:gravity="top"
+        android:hint="Enter message"
+        android:inputType="textMultiLine" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/pField1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:maxLength="4"
+        android:hint="password"
+         />
+    
+    
+        <EditText
+        android:id="@+id/pField2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:maxLength="4"
+        android:hint="confirm password"
+         />
+        
+        
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    >
+
+         <Button
+             android:id="@+id/bEncrypt"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="8dp"
+             android:layout_marginRight="8dp"
+             android:layout_weight="50"
+             android:text="Encrypt" />
+
+         <Button
+             android:id="@+id/bDecrypt"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="8dp"
+             android:layout_marginLeft="8dp"
+             android:layout_weight="50"
+             android:text="Decrypt" />
+         
+         
+</LinearLayout>
+
+
+
+
+
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="100"
+    >
+
+         <Button
+             android:id="@+id/bPaste"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="8dp"
+             android:layout_marginRight="8dp"
+             android:layout_weight="35"
+             android:text="Paste from clipboard" />
+
+         <Button
+             android:id="@+id/bHelp"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="8dp"
+             android:layout_marginLeft="8dp"
+             android:layout_weight="65"
+             android:text="Help" />
+         
+</LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
