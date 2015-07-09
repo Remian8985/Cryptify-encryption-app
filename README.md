@@ -5,6 +5,8 @@ Showcasing an encryption app for Android.
 
 
 
+Available: https://play.google.com/store/apps/details?id=com.tasdeeq.cryptify
+
 Android api version:	19
 
 App version:			1.0
